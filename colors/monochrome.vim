@@ -11,7 +11,7 @@ if exists('syntax_on')
    syntax reset
 endif
 
-let g:colors_name = 'monochrome'
+let g:colors_name = 'monochromejan'
 
 let s:white  = ['White', 15]
 let s:black  = ['#0e1111', 16]

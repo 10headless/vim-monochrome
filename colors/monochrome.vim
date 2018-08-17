@@ -11,7 +11,7 @@ if exists('syntax_on')
    syntax reset
 endif
 
-let g:colors_name = 'monochromejan'
+let g:colors_name = 'monochrome'
 
 let s:white  = ['White', 15]
 let s:black  = ['#0e1111', 16]
@@ -122,7 +122,7 @@ call s:hi('Type', s:white, s:default_bg, s:bold)
 call s:hi('Function', s:white)
 call s:hi('Identifier')
 call s:hi('Special')
-call s:hi('MatchParen', s:underline)
+call s:hi('MatchParen', s:sblue, s:yellow, s:underline)
 
 
 "
